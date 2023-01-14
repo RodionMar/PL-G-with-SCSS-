@@ -1,0 +1,554 @@
+@media screen and (max-width: 1600px) and (min-width: 768px){
+   .container{
+      max-width: 676px;
+
+   }
+   
+   .email-block{
+      max-width: 380px;
+      margin-top: 20px;
+      padding-bottom: 81px;
+   }
+   
+   .email-block-input{
+      min-width: 380px;
+      display: flex;
+      align-items: center;
+      padding: 0px 0px 0px 10px;
+   }
+   
+   .join-us-btn{
+      padding-left: 26px;
+      padding-right: 26px;
+      font-size: 16px;
+      line-height: 19.2px;
+      min-height: 60px;
+   }
+   
+   .watch-video-icon{
+      width: 61px;
+      height: 61px;
+   }
+
+   .watch-video-icon-triangle{
+      width: 61px;
+      height: 61px;
+   }
+   
+   .pointer-hand{
+      display: none;
+   }
+
+   .header{
+      top: 35px;
+   
+      &__images{
+         min-height: 63px;
+      }
+   
+      &__bird-image{
+         width: 62.31px;
+         height: 41.56px;
+      }
+   
+      &__bird-image-first-item{
+         height: 35px;
+         width: 56px;;
+      }
+   
+      &__bird-image-second-item{
+         height: 28.9px;
+         width: 29.4px;
+         left: 7.93px;
+         bottom: 12.61px;
+      }
+   
+      &__bird-image-third-item{
+         height: 21px;
+         width: 11px;
+         bottom: 1.89px;
+      }
+   
+      &__bird-title{
+         height: 7.87px;
+         width: 30.96px;
+         left: 19.4px;
+         bottom: 1.22px;
+      }
+   
+      &__heart{
+         margin-left: 7.47px;
+         margin-right: 13.48px;
+      }
+
+      &__heart-image{
+         height: 41.6px;
+         width: 48.4px;
+      }
+   
+      &__heart-title{
+         width: 24.89px;
+         height: 7.78px;
+         left: 11px;
+         bottom: 1.29px;
+      }
+   
+      &__guitar{
+         width: 51.31px;
+      }
+   
+      &__guitar-image{
+         width: 37.14px;
+         height: 41.69px;
+      }
+   
+      &__guitar-image-main-item{
+         width: 28.88px;
+         height: 41.69px;
+      }
+   
+      &__guitar-image-first-guitar-left-item{
+         width: 3.88px;
+         height: 6.3px;
+         top: 8.27px;
+      }
+   
+      &__guitar-image-second-guitar-left-item{
+         width: 3.88px;
+         height: 6.2px;
+         left: 0.7px;
+         top: 17.07px;
+      }
+   
+      &__guitar-image-third-guitar-left-item{
+         width: 3.9px;
+         height: 6.28px;
+         top: 25.68px;
+         left: 1.36px;
+      }
+
+      &__guitar-image-first-guitar-right-item{
+         width: 3.8px;
+         height: 6.3px;
+         top: 8.32px;
+      }
+   
+      &__guitar-image-second-guitar-right-item{
+         width: 3.81px;
+         height: 6.21px;
+         top: 17.07px;
+         right: 0.69px;
+      }
+   
+      &__guitar-image-third-guitar-right-item{
+         width: 3.84px;
+         height: 6.3px;
+         top: 25.88px;
+         right: 1.33px;
+      }
+   
+      &__guitar-before-title{
+         width: 5.51px;
+         height: 5.88px;
+         bottom: 0;
+      }
+   
+      &__guitar-title{
+         width: 44.95px;
+         height: 7.9px;
+         bottom: 1.18px;
+      }
+   
+      &__stop-war{
+         margin-top: 1px;
+      }
+   }
+
+   .main{ 
+      
+
+      &__hero{
+         backdrop-filter: blur(34px);
+         
+      }
+   
+      
+   
+      &__hero-content{
+         max-width: 471px;
+         padding-top: 168px;
+         padding-bottom: 76px;
+      }
+   
+      &__hero-title{
+         font-size: 50px;
+         line-height: 60px;
+      }
+   
+      &__hero-subtitle{
+         margin-top: 20px;
+         font-size: 33px;
+         line-height: 39.6px;
+      }
+   
+      &__hero-text{
+         font-size: 14px;
+         line-height: 16.8px;
+         margin-top: 10px;
+      }
+   
+      &__hero-email-block{
+         max-width: 390px;
+         margin-top: 20px;
+         padding-bottom: 81px;
+      }
+   
+      &__hero-email-block-input{
+         min-width: 380px;
+         font-size: 14px;
+         line-height: 16.8px;
+         padding: 21.5px 0 21.5px 10px;
+      }
+   
+      &__hero-watch-video{
+         max-width: 186px;
+         top: 511px;
+      }
+   
+      &__hero-watch-video-icon-circle{
+         width: 61px;
+         height: 61px;
+      }
+   
+      &__hero-watch-video-title{
+         line-height: 16.8px;
+         font-size: 14px;
+         margin-left: 10px;
+      }
+      
+      &__hero-first-point{
+         max-width: 100px;
+         min-height: 77px;
+         left: 458px;
+         top: 112px;
+      }
+   
+      &__hero-first-point-text{
+         max-width: 90px;
+         padding-left: 5px;
+         padding-right: 5px;
+         padding-top: 33px;
+         padding-bottom: 5px;
+      }
+   
+      &__hero-first-point-star{
+         width: 100px;
+         height: 100px;
+         left: 0;
+         bottom: 10px;
+      }
+   
+      &__hero-second-point{
+         max-width: 100px;
+         min-height: 77px;
+         left: 269px;
+         top: 283px;
+      }
+   
+      &__hero-second-point-text{
+         max-width: 90px;
+         padding-left: 5px;
+         padding-right: 5px;
+         padding-top: 33px;
+         padding-bottom: 5px;
+      }
+   
+      &__hero-third-point{
+         max-width: 100px;
+         min-height: 77px;
+         left: 485px;
+         top: 390px;
+      }
+   
+      &__hero-third-point-text{
+         max-width: 90px;
+         padding-left: 5px;
+         padding-right: 5px;
+         padding-top: 33px;
+         padding-bottom: 5px;
+      }
+   
+      &__hero-point-star{
+         width: 100px;
+         height: 100px;
+         left: 0;
+         bottom: 10px;
+      }
+   
+      &__hero-point-text{
+         line-height: 16.8px;
+         font-size: 14px;
+      }
+   
+      // Сделать отзывчивую вёрстку
+   
+      &__hero-guitarist-container {
+         left: 130px;
+      }
+   
+       &__hero-guitarist{
+         width: 672px;
+         min-height: 547px;
+         margin-right: 0;
+      }
+   
+      // maybe explore min-height
+   
+      &__about-container{
+         flex-direction: column;
+         column-gap: 0;
+      }
+   
+      &__about-section{
+         padding-top: 130px;
+         max-width: 570px;
+      }
+   
+      &__about-subtitle{
+         margin-top: 70px;
+      }
+   
+      &__about-benefits{
+         margin-top: 70px;
+         padding-bottom: 130px;
+         grid-column-gap: 44px;
+         grid-row-gap: 40px;
+      }
+   
+      &__about-benefits-item{
+         max-width: 316px;
+      }
+   
+      &__about-benefits-item-title{
+         padding-left: 0;
+      }
+   
+      &__about-benefits-item-subtitle{
+         margin-left: 0;
+      }
+   
+      &__story-section{
+         column-gap: 214px;
+         margin-bottom: 62px;
+      }
+   
+      &__story-title{
+         max-width: 253px;
+      }
+   
+      &__story-subtitle{
+         max-width: 221px;
+         min-height: 57px;
+         font-size: 16px;
+         line-height: 19.2px;
+      }
+   
+      &__story-bg-image{
+         top: 17px;
+      }
+
+      &__story-bg-image img{
+         width: 193px;
+         height: 193px;
+      }
+   
+      &__story-player{
+         min-height: 320px;
+      }
+
+      // Change margin after
+   
+      &__story-watch-video{
+         margin-top: 151px;
+      }
+   
+      
+   
+      &__story-watch-video-icon-circle{
+         width: 59px;
+         height: 59px;
+      }
+   
+      &__story-watch-video-title{
+         font-size: 16px;
+         line-height: 19px;
+         margin-top: 10px;
+      }
+   
+      &__story-btn{
+         padding-bottom: 130px
+      }
+   
+      &__story-join-us-btn{
+         width: 267px;
+      }
+   
+      &__help-section{
+         margin-top: 0;
+         margin-bottom: 92px;
+      }
+   
+      &__help-title{
+         padding-top: 40px;
+      }
+   
+      &__help-subtitle{
+         max-width: none;
+         margin-top: 30px;
+         margin-bottom: 30px;
+      }
+
+      &__help-subtitle-first-part{
+         max-width: 583px;
+      }
+
+      &__help-subtitle-second-part{
+         max-width: 320px;
+      }
+
+      &__help-subtitle-third-part{
+         max-width: 320px;
+      }
+   
+      &__help-btn{
+         min-height: 80px;
+         margin-bottom: 40px;
+      }
+   
+   
+      &__help-poster {
+         width: 367px;
+         height: 524px;
+         top: 250px;
+         left: 323px;
+         filter: drop-shadow(0px 5px 80px rgba(36, 36, 36, 0.2));
+      }
+   
+      &__donations-info{
+         gap: 0;
+         flex-direction: column;
+      }
+   
+      &__donations-title{
+         margin-top: 130px;
+         margin-bottom: 70px;
+      }
+   
+      &__donations-window{
+         margin-top: 70px;
+         margin-bottom: 130px;
+      }
+   
+      &__donations-window-title{
+         margin-bottom: 20px;
+      }
+   
+      &__donations-window-subtitle{
+         margin-bottom: 50px;
+      }
+   
+      &__donations-window-last-text{
+         width: 627px;
+         margin-top: 50px;
+      }
+   
+      &__donations-window-counter{
+         width: 627px;
+      }
+   
+      &__shop-title{
+         margin-bottom: 70px;
+      }
+   
+      &__shop-slider{
+         overflow-x: scroll;
+      }
+   
+      &__shop-slider-card{
+         margin-bottom: 0;
+      }
+   
+      &__shop-slider-card-image{
+         min-height: 319px;
+         max-width: 328px;
+      }
+   
+      &__shop-slider-card-image img{
+         min-height: 319px;
+         max-width: 326px;
+      }
+   
+      &__shop-slider-card-logotype{
+         max-width: 308px;
+         margin-top: 20px;
+         margin-bottom: 30px;
+      }
+   
+      &__shop-slider-card-form{
+         max-width: 308px;
+      }
+   
+      &__shop-slider-card-size-and-color{
+         margin-bottom: 30px;
+      }
+   
+      &__shop-slider-card-color{
+         margin-left: 37px;
+      }
+   
+      &__shop-slider-card-color--mr-0{
+
+         margin-left: 82px;
+      }
+   
+      &__shop-slider-card-button-and-price{
+         max-width: 308px;
+         margin-bottom: 20px;
+      }
+   
+      &__community-container{
+         margin-top: 130px;
+         padding-bottom: 130px;
+
+      }
+
+      &__community-email-block{
+         max-width: 630px;
+         padding-bottom: 0;
+      }
+
+      &__community-email-block-input{
+         min-width: 600px;
+         padding: 29px 0 29px 30px;
+      }
+   
+      &__community-join-us-btn{
+         min-height: 80px;
+         padding-left: 50px;
+         padding-right: 50px;
+      }
+   }
+   
+   .footer{
+      margin-top: 130px;
+      padding-bottom: 70px;
+   
+      &__subtitle{
+         padding-bottom: 0;
+      }
+
+      &__subtitle-link{
+         text-decoration: none;
+      }
+   }
+}

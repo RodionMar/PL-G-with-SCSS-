@@ -1,0 +1,730 @@
+@media screen and (max-width: 768px) and (min-width: 320px){
+   .container{
+      max-width: 290px;
+   }
+   
+   .email-block-input{
+      min-width: 290px;
+   }
+   
+   .join-us-btn{
+      min-height: 50px;
+      font-size: 14px;
+      line-height: 16.8px;
+      padding-left: 13px;
+      padding-right: 13px;
+   }
+   
+   .watch-video-icon{
+      width: 41px;
+      height: 41px;
+   }
+
+   .watch-video-icon-triangle{
+      width: 41px;
+      height: 41px;
+   }
+   
+   .pointer-hand{
+      display: none;
+   }
+   
+   .header{
+      top: 20px;
+   
+      &__images{
+         min-height: 40.51px;
+      }
+   
+      &__bird-image{
+         width: 41.54px;
+         height: 27.7px;
+      }
+   
+      &__bird-image-first-item{
+         width: 37.39px;
+         height: 23.45px;
+      }
+   
+      &__bird-image-second-item{
+         width: 19.61px;
+         height: 19.3px;
+         left: 5.29px;
+         bottom: 8.41px;
+      }
+   
+      &__bird-image-third-item{
+         width: 7.52px;
+         height: 14.32px;
+         bottom: 1.26px;
+      }
+   
+      &__bird-title{
+         width: 20.64px;
+         height: 5.25px;
+         left: 12.94px;
+         bottom: 0.81px;
+      }
+   
+      &__heart{
+         margin-left: 4.98px;
+         margin-right: 4.73px;
+      }
+   
+      &__heart-image{
+         width: 32.27px;
+         height: 27.74px;
+      }
+   
+      &__heart-title{
+         width: 16.59px;
+         height: 5.19px;
+         left: 9px;
+         bottom: 0.86px;
+      }
+   
+      &__guitar{
+         width: 35.13px;
+      }
+   
+      &__guitar-image{
+         width: 24.76px;
+         height: 27.79px;
+      }
+   
+      &__guitar-image-main-item{
+         width: 19.25px;
+         height: 27.79px;
+      }
+   
+      &__guitar-image-first-guitar-left-item{
+         width: 2.59px;
+         height: 4.2px;
+         top: 5.51px;
+      }
+   
+      &__guitar-image-second-guitar-left-item{
+         width: 2.59px;
+         height: 4.14px;
+         top: 11.38px;
+         left: 0.47px;
+      }
+   
+      &__guitar-image-third-guitar-left-item{
+         width: 2.6px;
+         height: 4.19px;
+         top: 17.12px;
+         left: 0.91px;
+      }
+
+      &__guitar-image-first-guitar-right-item{
+         width: 2.53px;
+         height: 4.2px;
+         top: 5.54px;
+      }
+   
+      &__guitar-image-second-guitar-right-item{
+         width: 2.54px;
+         height: 4.14px;
+         top: 11.38px;
+         right: 0.46px;
+      }
+   
+      &__guitar-image-third-guitar-right-item{
+         width: 2.56px;
+         height: 4.2px;
+         top: 17.12px;
+         right: 0.89px;
+      }
+   
+      &__guitar-before-title{
+         width: 3.68px;
+         height: 3.92px;
+         bottom: 0;
+      }
+   
+      &__guitar-title{
+         width: 29.97px;
+         height: 5.27px;
+         bottom: 0.81px;
+      }
+   
+      &__stop-war{
+         height: 15px;
+         margin-top: 0;
+      }
+   
+      &__stop-war-title{
+         font-size: 12px;
+         line-height: 14.4px;
+         padding-right: 3px;
+      }
+   
+      &__ukranian-flag{
+         width: 15px;
+         height: 15px;
+      }
+   }
+   
+   .main{
+      position: relative;
+   
+      &__hero-content{
+         max-width: 198px;
+         padding-top: 112px;
+         padding-bottom: 67px;
+         position: relative;
+        
+      }
+   
+      &__hero-title{
+         font-size: 21px;
+         line-height: 25.2px;
+      }
+   
+      &__hero-subtitle{
+         font-size: 16px;
+         line-height: 19.2px;
+         margin-top: 20px;
+      }
+   
+      &__hero-text{
+         max-width: 188px;
+         margin-top: 10px;
+         font-size: 12px;
+         line-height: 14.4px;
+      }
+   
+      &__hero-email-block{
+         max-width: 290px;
+         position: absolute;
+         margin-top: 82px;
+         padding-bottom: 0;
+      }
+   
+      &__hero-email-block-input{
+         min-width: 280px;
+         font-size: 14px;
+         line-height: 16.8px;
+         padding: 16.5px 0 16.5px 10px;
+      }
+   
+      &__hero-watch-video{
+         max-width: 166px;
+         
+         margin-top: 142px;
+      }
+   
+      &__hero-watch-video-icon-circle{
+         width: 41px;
+         height: 41px;
+      }
+   
+      &__hero-watch-video-title{
+         font-size: 14px;
+         line-height: 16.8px;
+         margin-left: 10px;
+      }
+      
+      &__hero-first-point{
+         display: none;
+      }
+   
+      &__hero-second-point{
+         display: none;
+      }
+   
+      &__hero-third-point{
+         display: none;
+      }
+   
+      &__hero-guitarist-container {
+         left: 65px;
+      }
+   
+       &__hero-guitarist{
+         width: 322px;
+         min-height: 263px;
+         margin-right: 0;
+      }
+   
+      // &__about-red-bg-image{
+      //    // position: absolute;
+      //    // top: 287px;
+      //    // right: 146px;
+      // }
+   
+      // &__about-red-bg-image img{
+         
+      //    // max-width: 104px;
+      //    // height: 90px;
+      //    // background-color:rgba(236, 28, 36, 0.3);
+      //    // filter: blur(150px);
+      // }
+   
+      // &__about-yellow-bg-image{
+      // }
+   
+      // &__about-yellow-bg-image img{
+         
+   
+      // }
+   
+      &__about-container{
+         flex-direction: column;
+         column-gap: 0;
+      }
+   
+      &__about-section{
+         padding-top: 187px;
+         max-width: 290px;
+      }
+   
+      &__about-title{
+         max-width: 183px;
+      }
+   
+      &__about-title span{
+         font-size: 30px;
+         line-height: 36px;
+      }
+   
+      &__about-title-second-part{
+         font-size: 30px;
+         line-height: 36px;
+      }
+
+      &__about-title-second-part span{
+         font-size: 20px;
+         line-height: 26px;
+      }
+   
+      &__about-subtitle{
+         margin-top: 40px;
+      }
+   
+      &__about-benefits{
+         margin-top: 20px;
+         grid-template-columns: auto;
+         grid-row-gap: 20px;
+         padding-bottom: 70px;
+      }
+   
+      &__about-benefits-item{
+         max-width: 290px;
+      }
+   
+      &__about-benefits-item-star{
+         left: -50px;
+         top: -50px;
+      }
+   
+      &__about-benefits-item-title{
+         margin-left: 0;
+         padding-top: 40px
+      }
+   
+      &__about-benefits-item-subtitle{
+         margin-left: 0;
+         margin-top: 10px;
+         margin-bottom: 0;
+      }
+   
+      &__story-section{
+         flex-direction: column;
+         column-gap: 0;
+         margin-bottom: 84px;
+      }
+   
+      &__story-title{
+         max-width: 237px;
+         font-size: 30px;
+         line-height: 36px;
+         margin-bottom: 30px;
+      }
+   
+   
+      &__story-title span{
+         font-size: 30px;
+         line-height: 36px;
+      }
+   
+      &__story-title span span{
+         font-size: 20px;
+         line-height: 24px;
+      }
+   
+      &__story-subtitle{
+         max-width: 290px;
+         font-size: 16px;
+         line-height: 19.2px;
+      }
+   
+      &__story-bg-image{
+         margin-top: 127px;
+      }
+
+      &__story-bg-image img{
+         width: 107px;
+         height: 107px;
+      }
+   
+      &__story-player{
+         min-height: 170px;
+      }
+   
+      &__story-watch-video{
+         margin-top: 44px;
+      }
+
+      &__story-watch-video-icon{
+         width: 59px;
+         height: 59px;
+      }
+   
+      
+   
+      &__story-watch-video-icon-circle{
+         width: 59px;
+         height: 59px;
+      }
+
+      &__story-watch-video-icon-triangle{
+         width: 59px;
+         height: 59px;
+         
+      }
+
+      &__story-watch-video-title{
+         font-size: 16px;
+         line-height: 16.8px;
+         margin-top: 5px;
+      }
+   
+      &__story-btn{
+         margin-top: 30px;
+         padding-bottom: 70px;
+      }
+   
+      &__story-join-us-btn{
+         width: 241px;
+         line-height: 19.2px;
+         font-size: 16px;
+         padding-top: 20.5px;
+         padding-bottom: 20.5px;
+      }
+   
+      &__help-section{
+         margin-top: 0;
+         margin-bottom: 193px;
+      }
+   
+      &__help-container{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+      }
+   
+      &__help-title{
+         max-width: 264px;
+         padding-top: 30px;
+         font-size: 30px;
+         line-height: 36px;
+      }
+   
+      &__help-subtitle{
+         max-width: 264px;
+         margin-top: 20px;
+         margin-bottom: 30px;
+      }
+   
+      &__help-subtitle-second-part{
+         margin-top: 10px;
+      }
+   
+      &__help-subtitle-third-part{
+         margin-top: 10px;
+      }
+   
+      &__help-btn{
+         justify-self: center;
+         min-width: 220px;
+         margin-bottom: 325px;
+      }
+   
+   
+      &__help-poster {
+         width: 306px;
+         height: 414px;
+         left: 0;
+         top: 860px;
+      }
+   
+      // &__donations-bg-circle{
+ 
+      // }
+   
+      &__donations-info{
+         gap: 0;
+         flex-direction: column;
+      }
+   
+      &__donations-title{
+         max-width: 193px;
+         font-size: 30px;
+         line-height: 36px;
+         margin-top: 0;
+         margin-bottom: 30px;
+      }
+   
+      &__donate{
+         min-width: 290px;
+      }
+   
+      &__donate-title{
+         margin-bottom: 20px;
+      }
+   
+      &__donate-form{
+         max-width: 290px;
+      }
+   
+      &__donate-form input{
+         min-height: 50px;
+         font-size: 14px;
+         line-height: 16.8px;
+         padding-left: 20px;
+         margin-bottom: 36.5px;
+      }
+   
+      &__donate-btn{
+         max-width: 290px;
+         min-height: 69px;
+         margin-bottom: 40px;
+      }
+   
+      &__donations-window{
+         min-width: 291px;
+         margin-bottom: 70px;
+      }
+   
+      &__donations-window-title{
+         max-width: 290px;
+      }
+   
+      &__donations-window-subtitle{
+         max-width: 284px;
+      }
+   
+      &__donations-window-reward-title{
+         max-width: 284px;
+         margin-bottom: 20px;
+      }
+   
+      &__donations-window-reward-benefit{
+         max-width: 290px;
+         margin-top: 10px;
+      }
+   
+      &__donations-window-reward-benefit--mt-0{
+         margin-top: 0;
+      }
+   
+      &__donations-window-reward-benefit-title{
+         font-size: 14px;
+         line-height: 16.8px;
+      }
+   
+      &__donations-window-last-text{
+         font-size: 14px;
+         line-height: 16.8px;
+      }
+   
+      &__donations-window-counter{
+         margin-top: 7px;
+         min-height: 41px;
+      }
+   
+      &__donations-window-counter-amount{
+         width: 91px;
+         min-height: 15px;
+         margin-left: 10px;
+      }
+   
+      &__donations-window-counter-center-line{
+         height: 20px;
+         margin-left: 44px;
+      }
+   
+      &__shop-title{
+         flex-direction: column;
+         margin-bottom: 20px;
+      }
+   
+      &__shop-title-text{
+         font-size: 30px;
+         line-height: 36px;
+         margin-bottom: 30px;
+         align-self: flex-start;
+      }
+   
+      &__shop-title-text span{
+         font-size: 30px;
+         line-height: 36px;
+      }
+   
+      &__shop-title-arrows label img{
+         width: 34px;
+         height: 22px;
+      }
+   
+      &__shop-slider{
+         overflow-x: scroll;
+      }
+   
+      &__shop-slider-card{
+         margin-bottom: 0;
+      }
+   
+      &__shop-slider-card-image{
+         min-height: 282px;
+         max-width: 290px;
+      }
+   
+      &__shop-slider-card-image img{
+         min-height: 282px;
+         max-width: 290px;
+         
+      }
+   
+      &__shop-slider-card-logotype{
+         max-width: 269px;
+         margin-top: 20px;
+         margin-bottom: 20px;
+         margin-left: 10px;
+         margin-right: 0px;
+      }
+   
+      &__shop-slider-card-logotype-title{
+         font-size: 16px;
+         line-height: 19.2px;
+      }
+   
+      &__shop-slider-card-form{
+         max-width: 269px;
+      }
+   
+      &__shop-slider-card-size-and-color{
+         margin-bottom: 20px;
+      }
+   
+      &__shop-slider-card-size-title{
+         margin-right: 5px;
+      }
+   
+      &__shop-slider-card-sizes label{
+         margin-right: 0;
+      }
+   
+      &__shop-slider-card-color{
+         margin-left: 45px;
+      }
+   
+      &__shop-slider-card-color--mr-0{
+         margin-left: 50px;
+         // margin-left: 86px;
+      }
+   
+      &__shop-slider-card-color-black:not(:last-of-type){
+         margin-right: 5px;
+         // margin-right: 15px;
+      }
+   
+      &__shop-slider-card-button-and-price{
+         max-width: 269px;
+         margin-bottom: 20px;
+      }
+   
+      &__shop-slider-card-button-and-price input{
+         max-width: 129px;
+         font-size: 14px;
+         line-height: 16.8px;
+         padding-top: 11.5px;
+         padding-bottom: 11.5px;
+         padding-left: 34.5px;
+         padding-right: 34.5px;
+      }
+   
+      &__shop-slider-card-price{
+         font-size: 25px;
+         line-height: 30px;
+      }
+   
+      &__community-container{
+         padding-bottom: 0;
+         margin-bottom: 70px;
+         margin-top: 70px;
+      }
+   
+      &__community-title{
+         max-width: 289px;
+         font-size: 30px;
+         line-height: 36px;
+         margin-bottom: 30px;
+      }
+   
+      &__community-title span{
+         font-size: 20px;
+         line-height: 24px;
+      }
+   
+      &__community-email-block{
+         max-width: 290px;
+         margin-top: 0;
+      }
+
+      &__community-email-block-input{
+         font-size: 14px;
+         line-height: 16.8px;
+         min-width: 280px;
+         padding: 11.5px 0 11.5px 10px;
+      }
+   
+      &__community-join-us-btn{
+         min-height: 40px;
+         padding-left: 10.5px;
+         padding-right: 10.5px;
+         font-style: 12px;
+         line-height: 14.4px;
+      }
+
+      &__last-section-text{
+         max-width: 290px;
+         margin-top: 32.47px;
+      }
+   }
+   
+   .footer{
+      margin-top: 100px;
+      padding-bottom: 103px;
+   
+      &__container{
+         font-size: 14px;
+         line-height: 16.8px;
+      }
+
+      &__title{
+         text-align: center;
+      }
+   
+      &__subtitle{
+         font-size: 12px;
+         line-height: 14.4px;
+         padding-bottom: 0;
+      }
+   
+      &__subtitle-link{
+         text-decoration: none;
+      }
+   }
+}

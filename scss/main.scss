@@ -1,0 +1,1535 @@
+@import 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800;900&display=swap';
+// @import '../css/reset.css';
+@font-face {
+	font-family: 'Mom´sTypewriter';
+	src: url('../fonts/Mom___.ttf');
+
+}
+
+$white: #FFFFFF;
+$black: #000000;
+$red: #EC1C24;
+$yellow: #FFC200;
+$green: #37B34A;
+$usualtextondark: #C5BCB0;
+$textonwhite: #554329;
+$background: #161513;
+
+@mixin H1Maintitle{
+   font-family: 'Poppins';
+   font-style: Black;
+   font-weight: 900;
+   font-size: 90px;
+   line-height: 108px;
+   text-transform: uppercase;
+   color: $black;
+}
+
+@mixin H22ndtitle{
+   font-family: 'Poppins';
+   font-style: ExtraBold;
+   font-weight: 800;
+   font-size: 60px;
+   line-height: 72px;
+   text-transform: uppercase;
+   color: $black;
+}
+
+@mixin H3sectiontitle{
+   font-family: 'Poppins';
+   font-style: Bold;
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 60px;
+}
+
+@mixin H4Subtitle{
+   font-family: 'Poppins';
+   font-style: Bold;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 24px;
+}
+
+@mixin H5BtnText{
+   font-family: 'Poppins';
+   font-style: Regular;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21.6px;
+}
+
+@mixin H6DefaultText{
+   font-family: 'Poppins';
+   font-style: Regular;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19.2px;
+}
+
+// body{
+//    display: flex;
+//    flex-direction: column;
+// }
+
+html, body { height:100% }
+
+.container{
+   max-width: 1281px;
+   padding: 0 15px;
+   margin: auto;
+}
+
+.email-block{
+   max-width: 630px;
+   position: relative;
+   margin-top: 50px;
+   padding-bottom: 70px;
+}
+
+.email-block-input{
+   min-width: 600px;
+   font-family: 'Poppins';
+   font-style: Regular;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21.6px;
+   background: rgba(0, 0, 0, 0.41);
+   border-radius: 5px;
+   border: 0;
+   color: $usualtextondark;
+   padding: 29px 0 29px 30px;
+}
+
+.join-us-btn{
+   min-height: 80px;
+   font-family: 'Poppins';
+   // font-style: Regular;
+   font-size: 20px;
+   line-height: 24px;
+   background: $red;
+   color: $white;
+   box-shadow: 0px 0px 177.24px #9F1919, 0px 0px 88.62px #9F1919;
+   border-radius: 5px;
+   border: 0;
+   cursor: pointer;
+   padding-left: 50px;
+   padding-right: 50px;
+}
+
+.join-us-btn span:first-of-type{
+   font-weight: 500;
+}
+
+.join-us-btn span:last-of-type{
+   font-weight: 275;
+}
+
+.watch-video-icon{
+   width: 101px;
+   height: 101px;
+   position: relative;
+}
+
+.pointer-hand{
+   width: 22px;
+   height: 22px;
+}
+
+body{
+   background-color: $background;
+   
+}
+
+.header{
+   width: 100%;
+   position: absolute;
+   
+   top: 40px;
+   left: 0;
+   z-index: 2;
+
+   &__container{
+      display: flex;
+      justify-content: space-between;
+   }
+
+   // &__main{
+   //    min-width: 1600px;
+   //    min-height: 81px;
+   //    display: flex;
+   //    justify-content: space-between;
+   // }
+
+   &__images{
+      display: flex;
+      min-height: 81px;
+      // margin-left: 155px;
+   }
+
+   &__bird{
+      position: relative;
+   }
+
+   &__bird-image{
+      position: relative;
+      width: 84.49px;
+      height: 56.73px;
+   }
+
+   &__bird-image-first-item{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: 3;
+   }
+
+   &__bird-image-second-item{
+      position: absolute;
+      left: 10.76px;
+      bottom: 17.21px;
+      z-index: 2;
+   }
+
+   &__bird-image-third-item{
+      position: absolute;
+      bottom: 2.58px;
+      right: 0;
+      z-index: 2;
+   }
+
+   &__bird-title{
+      position: absolute;
+      width: 42px;
+      height: 10.76px;
+      left: 16.31px;
+      bottom: 0;
+   }
+
+   &__heart{
+      position: relative;    
+      margin-left: 10px;
+      margin-right: 9.62px;
+   }
+
+   &__heart-image{
+      width: 65.63px;
+      height: 56.8px;
+   }
+
+   &__heart-title{
+      width: 33.75px;
+      height: 10.62px;
+      position: absolute;
+      left: 15px;
+      bottom: 0;
+   }
+
+   &__guitar{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      width: 69.58px;
+   }
+
+   &__guitar-image{
+      display: flex;
+      justify-content: center;
+      position: relative;
+      width: 50.35px;
+      height: 56.91px;
+   }
+
+   &__guitar-image-main-item{
+      position: absolute;
+      z-index: 3;
+   }
+
+   &__guitar-image-first-guitar-left-item{
+      position: absolute;
+      top: 11.29px;
+      left: 0;
+      z-index: 2;
+   }
+
+   &__guitar-image-second-guitar-left-item{
+      position: absolute;
+      top: 23.3px;
+      left: 0.96px;
+      z-index: 2;
+   }
+
+   &__guitar-image-third-guitar-left-item{
+      position: absolute;
+      top: 35.05px;
+      left: 1.84px;
+      z-index: 2;
+   }
+   //  adgsfdsgd
+   &__guitar-image-first-guitar-right-item{
+      position: absolute;
+      top: 11.29px;
+      right: 0;
+      z-index: 2;
+   }
+
+   &__guitar-image-second-guitar-right-item{
+      position: absolute;
+      top: 23.3px;
+      right: 0.96px;
+      z-index: 2;
+   }
+
+   &__guitar-image-third-guitar-right-item{
+      position: absolute;
+      top: 35.05px;
+      right: 1.84px;
+      z-index: 2;
+   }
+
+   &__guitar-before-title{
+      position: absolute;
+      width: 7.48px;
+      height: 8.02px;
+      bottom: -1.97px;
+      left: 0;
+   }
+
+   &__guitar-title{
+      position: absolute;
+      width: 60.95px;
+      height: 10.79px;
+      bottom: 0.35px;
+      right: 0;
+   }
+
+   &__stop-war{
+      display: flex;
+      align-items: center;
+      height: 20px;
+      margin-top: 16px;
+      // margin-right: 155px;
+   }
+
+   &__stop-war-title{
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 17px;
+      color: $white;
+      padding-right: 12px;
+   }
+
+   &__ukranian-flag{
+      width: 20px;
+      height: 20px;
+   }
+}
+
+.main{
+   // width: 100%;
+   // display: flex;
+   // flex-direction: column;
+   // align-items: center;
+   // change width when more than 1600px
+   position: relative;
+   
+
+   
+   
+
+
+   &__hero{
+      background-image: url(../img/header_blur-min.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+   }
+
+   
+
+   &__hero-content{
+      max-width: 990px;
+      z-index: 1;
+      padding-top: 188px;
+      padding-bottom: 236px;
+      position: relative;
+   }
+
+   &__hero-title{
+      @include H1Maintitle();
+      color: $white;
+      
+   }
+
+   &__hero-subtitle{
+      font-family: 'Mom´sTypewriter';
+      font-size: 60px;
+      font-style: Regular;
+      line-height: 72px;
+      margin-top: 40px;
+      color: $white;
+      
+   }
+
+   &__hero-text{
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      color: $white;
+      margin-top: 20px;
+      
+   }
+
+   &__hero-email-block{
+      max-width: 630px;
+      position: relative;
+      margin-top: 50px;
+      padding-bottom: 70px;
+   }
+
+   &__hero-email-block-input{
+      min-width: 600px;
+      font-family: 'Poppins';
+      font-style: Regular;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21.6px;
+      background: rgba(0, 0, 0, 0.41);
+      border-radius: 5px;
+      border: 0;
+      color: $usualtextondark;
+      padding: 29px 0 29px 30px;
+   }
+
+   // &__hero-email-block-input:focus{
+   //    outline: none;   
+   //    border: none;
+   // }
+
+   &__hero-join-us-btn{
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 2;
+   }
+
+   &__hero-btn-pointer-hand{
+      position: absolute;
+      left: 120px;
+      bottom: -10px;
+   }
+
+   &__hero-watch-video{
+      display: flex;
+      align-items: center;
+      max-width: 285px;
+      position: absolute;
+      text-decoration: none;
+      margin-top: 0;
+   }
+
+   // &__hero-watch-video-icon{
+   //    width: 101px;
+   //    height: 101px;
+   //    position: relative;
+   // }
+
+   &__hero-watch-video-icon-circle{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+   }
+
+   &__hero-watch-video-pointer-hand {
+      position: absolute;
+      bottom: 3.05px;
+      left: 68px;
+   }
+
+   &__hero-watch-video-title{
+      font-family: Poppins;
+      font-style: Regular;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      color: $white;
+      margin-left: 20px;
+   }
+   
+   &__hero-first-point{
+      max-width: 142px;
+      min-height: 104px;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      left: 856px;
+      top: 229px;
+      border-radius: 10px;
+      background: rgba(60, 41, 15, 0.39);
+      backdrop-filter: blur(23px);
+   }
+
+   &__hero-first-point-text{
+      max-width: 122px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      padding-top: 46px;
+   }
+
+   &__hero-first-point-star{
+      position: absolute;
+      bottom: 25px;
+      left: 10px;
+   }
+
+   &__hero-second-point{
+      max-width: 142px;
+      min-height: 104px;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 556px;
+      left: 512px;
+      z-index: 0;
+      border-radius: 10px;
+      background: rgba(60, 41, 15, 0.39);
+      backdrop-filter: blur(23px);
+   }
+
+   &__hero-second-point-text{
+      max-width: 122px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      padding-top: 46px;
+   }
+
+   &__hero-third-point{
+      max-width: 164px;
+      min-height: 104px;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      left: 1048px;
+      top: 725px;
+      z-index: 2;
+      border-radius: 10px;
+      background: rgba(60, 41, 15, 0.39);
+      backdrop-filter: blur(23px);
+   }
+
+   &__hero-third-point-text{
+      max-width: 122px;
+      padding-left: 21px;
+      padding-right: 21px;
+      padding-bottom: 10px;
+      padding-top: 46px;
+   }
+
+   &__hero-point-star{
+      position: absolute;
+      bottom: 25px;
+      left: 10px;
+      z-index: 3;
+   }
+
+   &__hero-point-text{
+      text-align: center;
+      font-family: Poppins;
+      font-style: Regular;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24px;
+      color: $white;
+   }
+
+   // Сделать отзывчивую вёрстку
+
+   &__hero-guitarist-container {
+      position: absolute;
+      
+      // max-width: 1237px;
+      // max-width: 1490px;
+      // min-height: 994px;
+      z-index: 10;
+      left: 208px;
+     
+      bottom: 0;
+      
+      
+   }
+
+    &__hero-guitarist{
+      position: relative;
+      
+      min-height: 994px;
+      // width: 100%;
+      
+      z-index: 1;
+      // margin-right: 253px;
+   }
+
+   // maybe explore min-height
+
+   &__about{
+      position: relative;
+      background: rgba(0, 0, 0, 0.05);
+      backdrop-filter: blur(100px);
+      // background-image: url(../img/body_blur-min.jpg);
+      // background-repeat: no-repeat;
+      // background-size: 100%;
+      // backdrop-filter: blur(100px);
+      
+   }
+
+   &__about-red-bg-image{
+      position: absolute;
+      top: 287px;
+      right: 146px;
+   }
+
+   &__about-red-bg-image img{
+      
+      max-width: 104px;
+      height: 90px;
+      background-color:rgba(236, 28, 36, 0.3);
+      filter: blur(150px);
+   }
+
+   &__about-yellow-bg-image{
+      position: absolute;
+      left: 231px;
+      top: 447px;
+   }
+
+   &__about-yellow-bg-image img{
+      width: 404px;
+      height: 404px;
+
+   }
+
+   &__about-container{
+      display: flex;
+      column-gap: 189px;
+   }
+
+   &__about-section{
+      justify-content: flex-start;
+      max-width: 407px;
+      padding-top: 198px;
+      
+   }
+
+   &__about-title{
+      display: flex;
+      justify-content: space-between;
+      max-width: 295px;
+      
+      color: $white;
+   }
+
+   &__about-title span{
+      @include H3sectiontitle()
+   }
+
+   &__about-title-second-part{
+      display: flex;
+      font-family: Mom´sTypewriter;
+      font-size: 50px;
+      line-height: 60px;
+   }
+   &__about-title-second-part span{
+      display: flex;
+      align-items: flex-end;
+      font-size: 30px;
+      line-height: 36px;
+   }
+
+   &__about-subtitle{
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19px;
+      color: $usualtextondark;
+      margin-top: 100px;
+   }
+
+   &__about-benefits{
+      display: grid;
+      margin-top: 358px;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      grid-column-gap: 43px;
+      grid-row-gap: 78px;
+      padding-bottom: 220px;
+      // margin-left: 199px;
+   }
+
+   &__about-benefits-item{
+      max-width: 326px;
+      position: relative;
+   }
+
+   &__about-benefits-item-star{
+      position: absolute;
+      left: -35px;
+      top: -40px;
+   }
+
+   &__about-benefits-item-title{
+      @include H4Subtitle();
+      color: $white;  
+      padding-top: 60px;
+      margin-left: 10px
+   }
+
+   &__about-benefits-item-subtitle{
+      @include H6DefaultText();
+      color: $usualtextondark;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+   }
+
+   &__story-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+   }
+
+   &__story-section{
+      display: flex;
+      column-gap: 510px;
+      margin-bottom: 182px;
+   }
+
+   &__story-title{
+      max-width: 378px;
+      font-family: Poppins;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 60px;
+      color: $white;
+   }
+
+
+   &__story-title span{
+      font-family: Mom´sTypewriter;
+      font-size: 50px;
+      line-height: 60px;
+      
+   }
+
+   &__story-title span span{
+      font-size: 30px;
+      line-height: 36px;
+   }
+
+   &__story-subtitle{
+      max-width: 393px;
+      // min-height: 44px;
+      @include H5BtnText();
+      color: $usualtextondark;
+   }
+
+   &__story-bg-image{
+      display: flex;
+      justify-content: center;
+      margin-top: 9px;
+      z-index: 0;
+      // width: 257px;
+      // height: 257px;
+      position: absolute;
+      
+   }
+
+   &__story-player{
+      display: flex;
+      justify-content: center;
+      min-height: 608px;
+      background-image: url(../img/peace_love_guitars_blur-min.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      position: relative;
+   }
+
+   &__story-watch-video{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 253px;
+   }
+
+   
+
+   &__story-watch-video-icon-circle{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+   }
+
+   &__story-watch-video-title{
+      @include H5BtnText();
+      color: $white;
+      margin-top: 19px;
+   }
+
+   &__story-btn{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+      padding-bottom: 200px;
+   }
+
+   &__story-join-us-btn{
+      position: relative;
+   }
+
+   &__story-btn-pointer-hand {
+      position: absolute;
+      left: 176px;
+      top: 69px;
+   }
+
+   &__help-section{
+      width: 100%;
+      background-color: $white;
+      margin-top: 42px;
+      margin-bottom: 47px;
+   }
+
+   &__help-container{
+      position: relative;
+      margin-bottom: 47px;
+   }
+
+   &__help-title{
+      max-width: 562px;
+      
+      font-family: Mom´sTypewriter;
+      font-size: 40px;
+      line-height: 48px;
+      padding-top: 80px;
+   }
+
+   &__help-subtitle{
+      max-width: 552px;
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 22px;
+      margin-top: 60px;
+      margin-bottom: 60px;
+   }
+
+   &__help-subtitle-second-part{
+      margin-top: 20px;
+   }
+
+   &__help-subtitle-third-part{
+      margin-top: 20px;
+   }
+
+   &__help-btn{
+      min-width: 249px;
+      box-shadow: 0px 10px 40px -5px rgba(159, 25, 25, 0.4);
+      margin-bottom: 80px;
+   }
+
+
+   &__help-poster {
+      position: absolute;
+      left: 741px;
+      width: 623px;
+      height: 845px;
+      top: -84px;
+   }
+
+   &__donations-bg-circle{
+      position: absolute;
+      width: 531px;
+      height: 531px;
+   }
+
+   &__donations-info{
+      display: flex;
+      gap: 250px;
+      
+   }
+
+   &__donations-title{
+      max-width: 550px;
+      font-family: Poppins;
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 60px;
+      color: $white;
+      margin-top: 200px;
+      margin-bottom: 100px;
+   }
+
+   &__donate{
+      min-width: 410px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      margin-right: 0;
+   }
+
+   &__donate-title{
+      max-width: 95px;
+      @include H4Subtitle();
+      color: $white;
+      margin-bottom: 30px;
+   }
+
+   &__donate-pointer-hand{
+      position: absolute;
+      top: 107.7px;
+      right: 3.85px;
+   }
+
+   &__donate-form{
+      max-width: 410px;
+      display: flex;
+      flex-direction: column;
+   }
+
+   &__donate-form input{
+      min-height: 69px;
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 22px;
+      color: $white;
+      border: 1px solid #4E4E3B;
+      border-radius: 5px;
+      padding: 0px 0px 0px 30px;
+      margin-bottom: 30px;
+      background: rgba(0, 0, 0, 0.41);
+   }
+
+   &__donate-btn{
+      max-width: 410px;
+      min-height: 69px;
+   }
+
+   &__donate-btn span{
+      font-size: 14px;
+      line-height: 16.8px;
+   }
+
+   &__donations-window{
+      min-width: 627px;
+      margin-bottom: 180px;
+   }
+
+   &__donations-window-title{
+      max-width: 366px;
+      @include H4Subtitle();
+      color: $white;
+      margin-bottom: 10px;
+   }
+
+   &__donations-window-subtitle{
+      max-width: 587px;
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 22px;
+      color: $usualtextondark;
+      margin-bottom: 30px;
+   }
+
+   &__donations-window-reward-title{
+      max-width: 587px;
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 22px;
+      color: $usualtextondark;
+      margin-bottom: 30px;
+   }
+
+   &__donations-window-reward-benefit{
+      max-width: 627px;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+   }
+
+   &__donations-window-reward-benefit--mt-0{
+      margin-top: 0;
+   }
+
+   &__donations-window-reward-benefit-price{
+      display: flex;
+      justify-self: flex-start;
+      align-items: center;
+   }
+
+   &__donations-window-reward-benefit-price-point{
+      
+      
+      width: 11px;
+      height: 11px;
+      background-color:rgba(253, 212, 83, 1);
+      box-shadow: 0px 0px 10px 1px rgba(255, 194, 0, 0.4);
+      backdrop-filter: blur(2.5px);
+      border-radius: 10px;
+      margin-right: 9px;
+   }
+
+   &__donations-window-reward-benefit-price-number{
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 22px;
+      color: $white;
+   }
+
+   &__donations-window-reward-benefit-title{
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 22px;
+      color: $white;
+   }
+
+   
+
+   &__donations-window-last-text{
+      display: flex;
+      justify-content: space-between;
+      @include H6DefaultText();
+      color: $white;
+      margin-top: 30px;
+   }
+
+   &__donations-window-counter{
+      display: flex;
+      align-items: center;
+      min-height: 69px;
+      width: 100%;
+      background: rgba(35, 35, 35, 1);
+      border-radius: 10px;
+      margin-top: 20px;
+   }
+
+   &__donations-window-counter-amount{
+      width: 202px;
+      min-height: 25px;
+      background: linear-gradient(180deg, #37B34A 0%, rgba(55, 179, 74, 0) 100%);
+      filter: drop-shadow(0px 0px 693px #37B34A) drop-shadow(0px 0px 396px #37B34A) drop-shadow(0px 0px 231px #37B34A) drop-shadow(0px 0px 115.5px #37B34A) drop-shadow(0px 0px 33px #37B34A) drop-shadow(0px 0px 16.5px #37B34A);
+      border-radius: 10px;
+
+      margin-left: 20px;
+   }
+
+   &__donations-window-counter-center-line{
+      width: 1px;
+      height: 41px;
+      background-color: rgba(81, 97, 85, 1);
+      margin-left: 91px;
+   }
+
+   &__shop-title{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 100px;
+   }
+
+   &__shop-title-text{
+      font-family: Poppins;
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 60px;
+      color: $white;
+
+   }
+
+   &__shop-title-text span{
+      font-family: Mom´sTypewriter;
+      font-size: 50px;
+      line-height: 60px;
+   }
+
+   &__shop-title-arrows input{
+      display: none;
+   }
+
+   &__shop-title-arrows label:first-of-type{
+      margin-right: 38px;
+   }
+
+   &__shop-title-arrows label img{
+      width: 43.75px;
+      height: 28.13px;
+      cursor: pointer;
+   }
+
+   &__shop-slider{
+      display: flex;
+      
+   }
+
+   &__shop-slider-card{
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 10px;
+      margin-bottom: 200px;
+   }
+
+   &__shop-slider-card:hover{
+      border: 1px solid rgba(97, 74, 3, 1);
+      
+
+   }
+
+   &__shop-slider-card-image{
+      min-height: 398px;
+      max-width: 409px;
+   }
+
+   &__shop-slider-card-image img{
+      min-height: 398px;
+      max-width: 407px;
+      border-radius: 10px;
+   }
+
+   &__shop-slider-card--margin-left-and-right-30px{
+      margin-left: 30px;
+      margin-right: 30px;
+   }
+
+   &__shop-slider-card-logotype{
+      display: flex;
+      justify-content: space-between;
+      max-width: 312px;
+      color: $white;
+      margin: auto;
+      margin-top: 39px;
+      margin-bottom: 40px;
+   }
+
+   &__shop-slider-card-logotype-title{
+      @include H4Subtitle();
+      color: $white;
+   }
+
+   &__shop-slider-card-logotype-subtitle{
+      font-family: Mom´sTypewriter;
+      font-size: 20px;
+      line-height: 24px;
+   }
+
+   &__shop-slider-card-logotype-subtitle span{
+      font-family: Mom´sTypewriter;
+      font-size: 14px;
+      line-height: 17px;
+   }
+
+   &__shop-slider-card-form{
+      max-width: 312px;
+      color: $white;
+      margin: auto;
+   }
+
+   &__shop-slider-card-size-and-color{
+      display: flex;
+      @include H6DefaultText();
+      margin-bottom: 41px;
+   }
+
+   &__shop-slider-card-size-title{
+      @include H6DefaultText();
+      display: flex;
+      align-items: center;
+      margin-right: 11px;
+   }
+
+   &__shop-slider-card-size-and-color input{
+      display: none;
+   }
+
+   &__shop-slider-card-size-and-color input:checked ~ label{
+      background-color: rgba(55, 55, 55, 1);
+   }
+
+   &__shop-slider-card-sizes:not(:last-of-type){
+      display: flex;
+      
+   }
+
+   // &__shop-slider-card-sizes:last-of-type{
+   //    display: flex;
+   //    margin-right: 0px;
+   // }
+
+   // &main__shop-slider-card-sizes--mr-86px{
+   //    margin-right: 86px;
+   // }
+
+   &__shop-slider-card-sizes label{
+      @include H6DefaultText();
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 30px;
+      min-height: 30px;
+      border-radius: 5px;
+      margin-right: 10px;
+      cursor: pointer;
+   }
+
+   &__shop-slider-card-sizes label:last-of-type{
+      margin-right: 0;
+   }
+
+   &__shop-slider-card-color{
+      display: flex;
+      margin-left: 41px;
+   }
+
+   &__shop-slider-card-color--mr-0{
+      margin-left: 86px;
+   }
+
+   &__shop-slider-card-color label{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 30px;
+      min-height: 30px;
+      border-radius: 5px;
+      cursor: pointer;
+   }
+
+   &__shop-slider-card-color-black:not(:last-of-type){
+      margin-right: 15px;
+   }
+
+   &__shop-slider-card-color label div{
+      height: 20px;
+      width: 20px;
+      border-radius: 5px;
+      min-width: 20px;
+      min-height: 20px;
+   }
+
+   &__shop-slider-card-color label:last-of-type div{
+      background-color: $white;
+   }
+   // 
+   &__shop-slider-card-color label:first-of-type div{
+      background-color: $black;
+   }
+
+   &__shop-slider-card-button-and-price{
+      max-width: 312px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 38px;
+   }
+
+   &__shop-slider-card-button-and-price input{
+      max-width: 195px;
+      font-family: Poppins;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 24px;
+      background-color: $red;
+      color: $white;
+      border: 0;
+      padding-top: 18px;
+      padding-bottom: 18px;
+      padding-left: 55px;
+      padding-right: 55px;
+      cursor: pointer;
+      border-radius: 5px;
+   }
+
+   &__shop-slider-card-price{
+      font-family: Poppins;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 36px;
+      position: relative;
+   }
+
+   &__slider-pointer-hand{
+      position: absolute;
+      left: 49px;
+      top: 2.7px;
+   }
+
+   &__community-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 200px;
+   }
+
+   &__community-title{
+      text-align: center;
+      max-width: 643px;
+      @include H22ndtitle();
+      color: $white;
+      margin-bottom: 60px;
+   }
+
+   &__community-title span{
+      font-family: Mom´sTypewriter;
+      font-size: 60px;
+      line-height: 72px;
+      text-align: center;
+   }
+
+   &__community-email-block{
+      padding-bottom: 0;
+   }
+
+   &__community-join-us-btn{
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 2;
+   }
+
+   &__community-btn-pointer-hand{
+      position: absolute;
+      top: 3.3px;
+      right: 106.15px;
+   }
+   &__last-section-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+   }
+   // 
+   // 
+   // 
+   &__last-section-images{
+      display: flex;
+      min-height: 67.52px;
+      // margin-left: 155px;
+   }
+
+   &__last-section-bird{
+      position: relative;
+   }
+
+   &__last-section-bird-image{
+      position: relative;
+      width: 69px;
+      height: 46.17px;
+   }
+
+   &__last-section-bird-image-first-item{
+      width: 62.11px;
+      height: 39.09px;
+      position: absolute;
+      bottom: 0;
+      right: 6.89px;
+      z-index: 3;
+   }
+
+   &__last-section-bird-image-second-item{
+      width: 32.57px;
+      height: 32.17px;
+      position: absolute;
+      left: 8.78px;
+      bottom: 14.01px;
+      z-index: 2;
+   }
+
+   &__last-section-bird-image-third-item{
+      width: 12.49px;
+      height: 23.87px;
+      position: absolute;
+      bottom: 2.1px;
+      right: 0;
+      z-index: 2;
+   }
+
+   &__last-section-bird-title{
+      position: absolute;
+      width: 34.29px;
+      height: 8.75px;
+      left: 21.48px;
+      bottom: 0;
+   }
+
+   &__last-section-heart{
+      position: relative;
+      width: 53.6px;
+      margin-left: 8.27px;
+      margin-right: 14.93px;
+   }
+
+   &__last-section-heart-image{
+      width: 53.6px;
+      height: 46.23px;
+   }
+
+   &__last-section-heart-title{
+      width: 27.56px;
+      height: 8.65px;
+      position: absolute;
+      left: 15px;
+      bottom: 0;
+   }
+
+   &__last-section-guitar{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      width: 55.89px;
+   }
+
+   &__last-section-guitar-image{
+      display: flex;
+      justify-content: center;
+      position: relative;
+      width: 41.12px;
+      height: 46.32px;
+   }
+
+   &__last-section-guitar-image-main-item{
+      width: 31.98px;
+      height: 46.32px;
+      position: absolute;
+      z-index: 3;
+   }
+
+   &__last-section-image-first-guitar-left-item{
+      width: 4.3px;
+      height: 7px;
+      position: absolute;
+      top: 9.19px;
+      left: 0;
+      z-index: 2;
+   }
+
+   &__last-section-image-second-guitar-left-item{
+      width: 4.3px;
+      height: 6.89px;
+      position: absolute;
+      top: 18.97px;
+      left: 0.78px;
+      z-index: 2;
+   }
+
+   &__last-section-image-third-guitar-left-item{
+      width: 4.32px;
+      height: 6.98px;
+      position: absolute;
+      top: 28.53px;
+      left: 1.84px;
+      z-index: 2;
+   }
+   //  adgsfdsgd
+   &__last-section-image-first-guitar-right-item{
+      width: 4.21px;
+      height: 7px;
+      position: absolute;
+      top: 9.24px;
+      right: 0;
+      z-index: 2;
+   }
+
+   &__last-section-image-second-guitar-right-item{
+      width: 4.22px;
+      height: 6.9px;
+      position: absolute;
+      top: 18.96px;
+      right: 0.77px;
+      z-index: 2;
+   }
+
+   &__last-section-image-third-guitar-right-item{
+      width: 4.25px;
+      height: 7px;
+      position: absolute;
+      top: 28.53px;
+      right: 1.47px;
+      z-index: 2;
+   }
+
+   &__last-section-guitar-before-title{
+      position: absolute;
+      width: 6.11px;
+      height: 6.53px;
+      bottom: -1.97px;
+      left: 0;
+   }
+
+   &__last-section-guitar-title{
+      position: absolute;
+      width: 49.78px;
+      height: 8.78px;
+      bottom: 0.35px;
+      right: 0;
+   }
+
+   &__last-section-text{
+      max-width: 629px;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19px;
+      color: $usualtextondark;
+      margin-top: 50px;
+   }
+
+   &__last-section-text-second-part{
+      margin-top: 20px;
+   }
+}
+
+.footer{
+   margin-top: 200px;
+   padding-bottom: 140px;
+
+   &__container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19px;
+      color: $usualtextondark;
+   }
+
+   &__subtitle{
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 17px;
+      margin-top: 30px;
+      color: $usualtextondark;
+      padding-bottom: 34px;
+   }
+
+   &__subtitle-link{
+      color: $usualtextondark;
+   }
+}
+
+// @import '768.scss';
+// @import '320.scss';
